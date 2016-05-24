@@ -1,4 +1,5 @@
 function f() {
   var a;
-  return a.x;
+  if (a) return true;
+  else return false;
 }
