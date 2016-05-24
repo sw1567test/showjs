@@ -1,1 +1,6 @@
-document.write("<div>" + document.location.href + "</div>");
+function f() {
+  var a;
+  var b = "hello";
+  b = b + a;
+  return b;
+}
